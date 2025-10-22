@@ -1,0 +1,6 @@
+# Python Dependencies for Space Defender
+# Install with: pip install -r requirements.txt
+
+# Pygame - The game development library
+# Version 2.5+ is recommended for latest features and bug fixes
+pygame>=2.5.0

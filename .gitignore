@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+.venv
+
+# Game files
+highscores.json
+*.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Assets (if you want to keep repo small, uncomment these)
+# assets/*.png
+# assets/*.jpg
+# assets/*.wav
+# assets/*.mp3
+# assets/*.ogg
