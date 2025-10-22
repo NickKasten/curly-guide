@@ -8,6 +8,38 @@
 - Your client is asking for a small-scale mini-game to launch on their next "state-of-art" console. Attached are stubs for an example arcade-style game built with Python and Pygame.
 
 ## Repository Layout
+
+```
+curly-guide/
+├── 📁 assets/                    # Images, sounds, and other game assets
+│   └── README.md
+├── 📁 docs/                      # Documentation and guides
+│   ├── sprint-brief.md           # Project tasks and user stories
+│   └── multiplayer-extension.md  # Multiplayer implementation hints
+├── 📁 entities/                  # Game objects (spaceships, enemies, bullets)
+│   ├── __init__.py
+│   ├── base_entity.py           # Base class for all game objects
+│   ├── player.py                # Player spaceship
+│   ├── enemy.py                 # Asteroid/enemy sprites
+│   └── projectile.py            # Bullet/laser sprites
+├── 📁 services/                  # Core game logic and systems
+│   ├── __init__.py
+│   ├── game_engine.py           # Main game loop
+│   ├── collision_service.py     # Collision detection
+│   ├── score_service.py         # Score tracking and high scores
+│   └── input_service.py         # Keyboard input handling
+├── 📁 ui/                        # User interface components
+│   ├── __init__.py
+│   ├── hud.py                   # Score display and game messages
+│   └── menu.py                  # Start screen and pause menu
+├── 📄 main.py                    # 🚀 START HERE - Game entry point
+├── 📄 config.py                  # Game settings and constants
+├── 📄 requirements.txt           # Python dependencies
+├── 📄 README.md                  # This file
+└── 📄 QUICKSTART.md             # Quick setup guide
+```
+
+### File Descriptions
 - `main.py` — entry point that initializes Pygame, sets up the game window, and runs the main game loop.
 - `config.py` — centralized configuration file with tweakable constants (speeds, colors, spawn rates, screen dimensions).
 - `requirements.txt` — list of Python package dependencies (just pygame for now).
